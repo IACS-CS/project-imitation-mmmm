@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap'); 
 body {
     display: flex;
     align-items: center;
@@ -23,12 +24,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     position: relative;
+    padding-top: 20px;
 }
 .brand-container {
     position: absolute;
@@ -43,6 +46,7 @@ body {
     font-family: "imperial script", cursive;
 }
 
+
 .product-line {
     font-size: 20px;
     letter-spacing: 2px;
@@ -52,7 +56,12 @@ body {
     font-weight: 300;
 
 }
-
+.black-line {
+    width: 150%; 
+    border: none;
+    border-top: 40px solid black; 
+   margin: 0px auto;
+}
 .main-content {
     
     color: black;
@@ -73,8 +82,10 @@ body {
 
 .footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     width: 100%;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .dark-noir {
@@ -83,20 +94,38 @@ body {
     font-weight: bold;
     margin-bottom: 5px;
     font-family: "Kantumruy Pro", sans-serif;
+
 }
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 12px;
+    color: #666;
+  
+    
 
 .description {
     font-size: 12px;
-    color: #666;
+    color: #bda668; 
     margin: 5px 0;
+    font-family: "Old Standard TT", serif;
+    font-style: italic;
+
 }
 .french-description {
     font-size: 12px;
-    color: #666;
+    color: #bda668; 
     margin: 5px 0;
+     font-family: "Old Standard TT", serif;
+    font-style: italic;
 }
 .weight {
     font-size: 14px;
     font-weight: bold;
-    color: #333;
+    color: #bda668; 
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
