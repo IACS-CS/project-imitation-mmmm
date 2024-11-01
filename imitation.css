@@ -36,7 +36,7 @@ body {
 .brand-container {
     position: absolute;
     top: -50px;
-    left: 50%;
+    left: 25%;
     transform: translateX(-50%);
 }
 
@@ -45,13 +45,18 @@ body {
     color: #bda668; 
     font-family: "imperial script", cursive;
 }
-
-
+.divider {
+    border: none; 
+    border-top: 3px solid #bda668; 
+    width: 139%; 
+    margin: 70px auto 5px; 
+    margin-left: -40px;
+}
 .product-line {
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 2px;
     color: #bda668; 
-    margin-top: 95px;
+    margin-top: 10px;
     font-family: "figtree", sans-serif;
     font-weight: 300;
 
@@ -72,17 +77,23 @@ body {
 }
 
 .flavor {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     line-height: 1.4;
+    letter-spacing: 3.5px;
+    margin-top: 0;
     
 }
 
-
+img{
+  width: 2.75in;
+  height: 3.5in; 
+ position: relative;
+ top: -100px;
+}
 
 .footer {
     text-align: center;
-    padding: 20px 0;
     width: 100%;
     position: relative;
     margin-bottom: 20px;
