@@ -15,8 +15,8 @@ body {
 
 .chocolate-bar {
     width: 300px;
-    height: 600px;
-    background-color: #f7f7f7;
+    height: 650px;
+    background-color: #f6f3f2;
     border: 2px solid #e0e0e0;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -35,8 +35,8 @@ body {
 }
 .brand-container {
     position: absolute;
-    top: -50px;
-    left: 25%;
+    top: -65px;
+    left: 30%;
     transform: translateX(-50%);
 }
 
@@ -59,13 +59,44 @@ body {
     margin-top: 10px;
     font-family: "figtree", sans-serif;
     font-weight: 300;
+    margin-top: 0px;
 
 }
 .black-line {
-    width: 150%; 
+    width: 90%; 
     border: none;
     border-top: 40px solid black; 
    margin: 0px auto;
+}
+.gold-line-1{
+    border: none;       
+  height: 3.5px;        
+  background-color: #bda668;  
+  width: 90%;
+  margin-top: -0px;
+}
+.gold-line-2{
+    border: none;
+    height: 1px;
+    background-color: #bda668;
+    width: 90%;
+    margin-top: -5.5px;
+}
+.gold-line-3{
+    border: none;
+    height: 1px;
+    background-color: #bda668;
+    width: 90%;
+    margin-top: -5.5px;
+    margin-bottom: 3.5px;
+}
+.gold-line-4{
+    border: none;       
+  height: 3.5px;        
+  background-color: #bda668;  
+  width: 90%;
+  margin-top: -1px; 
+  margin-bottom: -0px 
 }
 .main-content {
     
@@ -73,7 +104,7 @@ body {
     text-align: center;
     flex-grow: 1;
     font-family: "Bodoni Moda", serif;
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .flavor {
@@ -84,12 +115,33 @@ body {
     margin-top: 0;
     
 }
+.image-container {
+    width: 200px;
+    height: 240px;
+    border: 2px solid #e0e0e0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 225px;
+     background-image: 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 
-img{
-  width: 2.75in;
-  height: 3.5in; 
- position: relative;
- top: -100px;
+   
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+     position: relative;
+    top: 35px;
+    width: 2.in;
+    height: 3.15in; 
+       
 }
 
 .footer {
@@ -133,10 +185,10 @@ img{
     font-style: italic;
 }
 .weight {
-    font-size: 14px;
+    font-size: 22px;
     font-weight: bold;
     color: #bda668; 
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: -75px;
+    right: 35px;
 }
