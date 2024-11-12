@@ -120,7 +120,7 @@ img.lindt-dragon  {
     margin-top: 0;
     
 }
-.image-container {
+.container {
     width: 200px;
     height: 240px;
     border: 2px solid #e0e0e0;
@@ -130,23 +130,23 @@ img.lindt-dragon  {
     align-items: center;
     position: absolute;
     top: 225px;
-     background-image: 
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
-
-   
+    background-repeat: no-repeat;    
 }
-
-.image-container img {
-    width: 100%;
+img.gradient-image{
+    height: 1in;
+    width: 1in;
+}
+img.raspberry-image {
+    
     height: auto;
     object-fit: cover;
      position: relative;
-    top: 35px;
-    width: 2.in;
-    height: 3.15in; 
-       
+     left: 5px;
+   
+
+    height: 1in;    
 }
 
 .footer {
@@ -190,6 +190,12 @@ img.lindt-dragon  {
     margin: -5px 0;
      font-family: "Old Standard TT", serif;
     font-style: italic;
+
+}
+img.lindt-logo{
+    height: 1in;
+    width: 1in;
+    transform: translate(-95px, 53px);
 }
 .weight {
     font-size: 22px;
