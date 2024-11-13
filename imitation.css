@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     background-color: white;
     font-family: Arial, sans-serif;
 }
@@ -18,7 +19,7 @@ body {
     height: 650px;
     background-color: #f6f3f2;
     border: 2px solid #e0e0e0;
-    border-radius: 10px;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     display: flex;
@@ -47,14 +48,14 @@ body {
 }
 
 img.lindt-dragon  {
-    height: 0.90in;
-   transform: translate(110px, -155px);
+    height: 0.70in;
+   transform: translate(110px, -145px);
 }
 .divider {
     border: none; 
     border-top: 3px solid #bda668; 
     width: 139%; 
-    margin: 70px auto 5px; 
+    margin: 60px auto 5px; 
     margin-left: -40px;
 }
 .product-line {
@@ -120,33 +121,33 @@ img.lindt-dragon  {
     margin-top: 0;
     
 }
-.container {
-    width: 200px;
-    height: 240px;
+.image-container {
+    width: 150px;
+    height: 120px;
     border: 2px solid #e0e0e0;
     padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 225px;
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;    
+    top: 250px;
+   
 }
 img.gradient-image{
-    height: 1in;
-    width: 1in;
+    height: 2.75in;
+    width: 3in;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: -120px;
+    top: -40px;
+   
 }
 img.raspberry-image {
-    
-    height: auto;
-    object-fit: cover;
      position: relative;
      left: 5px;
-   
-
-    height: 1in;    
+     height: 3.5in;  
+     bottom: -100px; 
+     top: 20px; 
 }
 
 .footer {
@@ -160,9 +161,10 @@ img.raspberry-image {
     font-size: 23px;
     letter-spacing: 5px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: -75px;
     padding: 15px;
-    font-family: "Kantumruy Pro", sans-serif;
+    font-family: "Prosto One", sans-serif;
+    letter-spacing: 4px;
 
 }
 
@@ -195,7 +197,7 @@ img.raspberry-image {
 img.lindt-logo{
     height: 1in;
     width: 1in;
-    transform: translate(-95px, 53px);
+    transform: translate(-102px, 53px);
 }
 .weight {
     font-size: 22px;
@@ -204,4 +206,5 @@ img.lindt-logo{
     position: absolute;
     bottom: -75px;
     right: 35px;
+   font-family: "Bodoni Moda", serif;
 }
