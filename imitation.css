@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Prosto+One&display=swap');
 body {
     display: flex;
     align-items: center;
@@ -17,10 +18,11 @@ body {
 .chocolate-bar {
     width: 300px;
     height: 650px;
-    background-color: #f6f3f2;
-    border: 2px solid #e0e0e0;
+    background-color: #f5f4f0;
+    border: 2px solid #dbdbd9;
     
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -53,7 +55,7 @@ img.lindt-dragon  {
 }
 .divider {
     border: none; 
-    border-top: 3px solid #bda668; 
+    border-top: 3px solid#bda668; 
     width: 139%; 
     margin: 60px auto 5px; 
     margin-left: -40px;
@@ -66,6 +68,7 @@ img.lindt-dragon  {
     font-family: "figtree", sans-serif;
     font-weight: 300;
     margin-top: 0px;
+    margin-bottom: 0px;
 
 }
 .black-line {
@@ -107,18 +110,25 @@ img.lindt-dragon  {
 .main-content {
     
     color: rgb(255, 255, 255);
+    background-image: url("Gradient.jpeg");
+    background-size: cover;
     text-align: center;
     flex-grow: 1;
     font-family: "Bodoni Moda", serif;
-    font-size: 70px;
+    font-size:100px;
+      height: 3.75in;
+    width: 2.75in;
+    position: relative;
+    margin-top: 15px;
+    
 }
 
 .flavor {
-    font-size: 22px;
+    font-size: 27px;
     font-weight: bold;
     line-height: 1.4;
     letter-spacing: 3.5px;
-    margin-top: 0;
+    margin-top: 13px;
     
 }
 .image-container {
@@ -133,21 +143,13 @@ img.lindt-dragon  {
     top: 250px;
    
 }
-img.gradient-image{
-    height: 2.75in;
-    width: 3in;
-    transform: rotate(90deg);
-    position: absolute;
-    bottom: -120px;
-    top: -40px;
-   
-}
+
 img.raspberry-image {
-     position: relative;
-     left: 5px;
+     position: absolute;
+     left: 7px;
      height: 3.5in;  
-     bottom: -100px; 
-     top: 20px; 
+     bottom: -45px; 
+     
 }
 
 .footer {
@@ -163,7 +165,7 @@ img.raspberry-image {
     font-weight: bold;
     margin-bottom: -75px;
     padding: 15px;
-    font-family: "Prosto One", sans-serif;
+    font-family: "Faculty Glyphic", sans-serif;
     letter-spacing: 4px;
 
 }
@@ -174,13 +176,14 @@ img.raspberry-image {
     gap: 10px; 
     font-size: 12px;
     color: #666;
-  
+    
+}
     
 
-.description {
+.description{
     font-size: 12px;
     color: #bda668; 
-    margin: -5px 0;
+    margin: 60px 0 0 20px;
     
     font-family: "Old Standard TT", serif;
     font-style: italic;
@@ -189,15 +192,16 @@ img.raspberry-image {
 .french-description {
     font-size: 12px;
     color: #bda668; 
-    margin: -5px 0;
+    margin: 60px 0 0;
      font-family: "Old Standard TT", serif;
     font-style: italic;
+    
 
 }
 img.lindt-logo{
     height: 1in;
     width: 1in;
-    transform: translate(-102px, 53px);
+    transform: translate(-102px, 70px);
 }
 .weight {
     font-size: 22px;
