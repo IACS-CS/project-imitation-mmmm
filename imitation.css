@@ -212,3 +212,40 @@ img.lindt-logo{
     right: 35px;
    font-family: "Bodoni Moda", serif;
 }
+.stack {
+  width: 200px;
+  height: 100px;
+  border: 1px solid purple;
+  position: relative;
+}
+.flex {
+  height: 50px;
+  display: flex;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+.flex div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.flex .btm {
+  align-items: flex-end;
+}
+.bullseye {
+  position: absolute;
+  /* specify half width/height of the
+  container
+  for top and left */
+  left: 200px;
+  top: 50px;
+  /* you won't need width/height */
+  width: 70px;
+  height: 30px;
+    background: red;
+  /* center me */
+  transform: translate(-50%,-50%);
+}
