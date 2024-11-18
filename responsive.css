@@ -9,6 +9,47 @@
     content: "Mobile";
     background-color: #c8787888;
   }
+   .chocolate-bar {
+        width: 220px;
+        height: 500px;
+    }
+
+    .brand {
+        font-size: 60px; 
+    }
+
+    .product-line {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+    }
+
+    .flavor {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+
+    img.lindt-dragon {
+        height: 0.5in;
+        transform: translate(90px, -120px);
+    }
+
+    img.raspberry-image {
+        height: 2.5in;
+    }
+
+    .dark-noir {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+
+    .weight {
+        font-size: 14px;
+    }
+
+    .flex div {
+        font-size: 10px;
+    }
+}
   /* End mobile label */
 }
 
@@ -21,6 +62,48 @@
     content: "Laptop";
     background-color: #45454588;
   }
+      .chocolate-bar {
+        width: 260px;
+        height: 580px;
+    }
+
+    .brand {
+        font-size: 70px;
+    }
+
+    .product-line {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    .flavor {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    img.lindt-dragon {
+        height: 0.6in;
+        transform: translate(100px, -130px);
+    }
+
+    img.raspberry-image {
+        height: 3in;
+    }
+
+    .dark-noir {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .weight {
+        font-size: 16px;
+    }
+
+    .flex div {
+        font-size: 11px;
+    }
+}
+
   /* End laptop label */
 }
 
@@ -33,6 +116,50 @@
     content: "Wide";
     background-color: #00438888;
   }
+  body {
+        background: linear-gradient (black, rgb(174, 43, 65))
+  }
+   .chocolate-bar {
+        width: 320px;
+        height: 700px;
+    }
+
+    .brand {
+        font-size: 90px;
+    }
+
+    .product-line {
+        font-size: 32px;
+        letter-spacing: 3px;
+    }
+
+    .flavor {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    img.lindt-dragon {
+        height: 0.8in;
+        transform: translate(120px, -150px);
+    }
+
+    img.raspberry-image {
+        height: 3.8in;
+    }
+
+    .dark-noir {
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
+    .weight {
+        font-size: 20px;
+    }
+
+    .flex div {
+        font-size: 13px;
+    }
+}
   /* End widescreen label */
 }
 
