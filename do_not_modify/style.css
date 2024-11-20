@@ -6,9 +6,9 @@
  (though if you want to change colors or 
  fonts or something, feel free)
 ***/
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:  "Bodoni Moda", serif;
 }
 
 body {
@@ -49,12 +49,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #007bff; /* Change color on hover */
+  color: #a61c29; /* Change color on hover */
 }
 
 nav a.active {
-  border-bottom: 3px solid #007bff; /* Underline active tab */
-  color: #007bff;
+  border-bottom: 3px solid #a61c29; /* Underline active tab */
+  color: #a61c29;
 }
 
 .center img {

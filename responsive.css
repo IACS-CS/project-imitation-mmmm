@@ -1,55 +1,252 @@
 /* Code for all screen sizes */
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Imperial+Script&family=Qwitcher+Grypen:wght@400;700&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Prosto+One&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.chocolate-bar {
+    width: 300px;
+    height: 650px;
+    background-color: #f5f4f0;
+    border: 2px solid #dbdbd9;
+    
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header {
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    padding-top: 20px;
+}
+.brand-container {
+    position: absolute;
+    top: -65px;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.brand {
+    font-size: 80px;
+    color: #bda668; 
+    font-family: "imperial script", cursive;
+}
+
+img.lindt-dragon  {
+    height: 0.70in;
+   transform: translate(110px, -145px);
+}
+.divider {
+    border: none; 
+    border-top: 3px solid#bda668; 
+    width: 139%; 
+    margin: 60px auto 5px; 
+    margin-left: -40px;
+}
+.product-line {
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #bda668; 
+    margin-top: 10px;
+    font-family: "figtree", sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.black-line {
+    width: 90%; 
+    border: none;
+    border-top: 40px solid black; 
+   margin: 0px auto;
+}
+.gold-line-1{
+    border: none;       
+  height: 3.5px;        
+  background-color: #bda668;  
+  width: 90%;
+  margin-top: -0px;
+}
+.gold-line-2{
+    border: none;
+    height: 1px;
+    background-color: #bda668;
+    width: 90%;
+    margin-top: -5.5px;
+}
+.gold-line-3{
+    border: none;
+    height: 1px;
+    background-color: #bda668;
+    width: 90%;
+    margin-top: -5.5px;
+    margin-bottom: 3.5px;
+}
+.gold-line-4{
+    border: none;       
+  height: 3.5px;        
+  background-color: #bda668;  
+  width: 90%;
+  margin-top: -1px; 
+  margin-bottom: -0px 
+}
+.main-content {
+    
+    color: rgb(255, 255, 255);
+    background-image: url("Gradient.jpeg");
+    background-size: cover;
+    text-align: center;
+    flex-grow: 1;
+    font-family: "Bodoni Moda", serif;
+    font-size:100px;
+      height: 3.75in;
+    width: 2.75in;
+    position: relative;
+    margin-top: 15px;
+    
+}
+
+.flavor {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: 3.5px;
+    margin-top: 13px;
+    
+}
+.image-container {
+    width: 150px;
+    height: 120px;
+    border: 2px solid #e0e0e0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+   
+}
+
+img.raspberry-image {
+     position: absolute;
+     left: 7px;
+     height: 3.5in;  
+     bottom: -45px; 
+     
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.dark-noir {
+    font-size: 23px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-bottom: -75px;
+    padding: 15px;
+    font-family: "Faculty Glyphic", sans-serif;
+    letter-spacing: 4px;
+
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 12px;
+    color: #666;
+    
+}
+    
+
+.description{
+    font-size: 12px;
+    color: #bda668; 
+    margin: 60px 0 0 20px;
+    
+    font-family: "Old Standard TT", serif;
+    font-style: italic;
+
+}
+.french-description {
+    font-size: 12px;
+    color: #bda668; 
+    margin: 60px 0 0;
+     font-family: "Old Standard TT", serif;
+    font-style: italic;
+    
+
+}
+img.lindt-logo{
+    height: 0.85in;
+    width: 0.85in;
+    margin-top: -30px;
+}
+.weight {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bda668; 
+    position: absolute;
+    bottom: -75px;
+    right: 35px;
+   font-family: "Bodoni Moda", serif;
+}
+.stack {
+  height: 100px;
+ position: relative;
+ top: 60px;
+}
+.flex {
+  height: 50px;
+  display: flex;
+ box-sizing: border-box;
+ justify-content: center;
+}
+.flex div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family:"Old Standard TT", serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #bda668; 
+}
+.flex .btm {
+  align-items: flex-end;
+}
+
+
 /* BEGIN MOBILE RULES */
 @media only screen and (max-width: 768px) {
   /* Code for mobile phones only: */
 
   /* Mobile label */
-  main::before {
-    content: "Mobile";
-    background-color: #c8787888;
-  }
-   .chocolate-bar {
-        width: 220px;
-        height: 500px;
-    }
-
-    .brand {
-        font-size: 60px; 
-    }
-
-    .product-line {
-        font-size: 18px;
-        letter-spacing: 1.5px;
-    }
-
-    .flavor {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-
-    img.lindt-dragon {
-        height: 0.5in;
-        transform: translate(90px, -120px);
-    }
-
-    img.raspberry-image {
-        height: 2.5in;
-    }
-
-    .dark-noir {
-        font-size: 16px;
-        letter-spacing: 3px;
-    }
-
-    .weight {
-        font-size: 14px;
-    }
-
-    .flex div {
-        font-size: 10px;
-    }
-}
+  
   /* End mobile label */
 }
 
@@ -58,106 +255,8 @@
   /* Code for medium width and bigger : */
 
   /* Laptop label */
-  main::before {
-    content: "Laptop";
-    background-color: #45454588;
-  }
-      .chocolate-bar {
-        width: 260px;
-        height: 580px;
-    }
-
-    .brand {
-        font-size: 70px;
-    }
-
-    .product-line {
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
-
-    .flavor {
-        font-size: 25px;
-        letter-spacing: 3px;
-    }
-
-    img.lindt-dragon {
-        height: 0.6in;
-        transform: translate(100px, -130px);
-    }
-
-    img.raspberry-image {
-        height: 3in;
-    }
-
-    .dark-noir {
-        font-size: 20px;
-        letter-spacing: 4px;
-    }
-
-    .weight {
-        font-size: 16px;
-    }
-
-    .flex div {
-        font-size: 11px;
-    }
-}
-
-  /* End laptop label */
-}
-
-/* BEGIN WIDE SCREEN RULES */
-@media only screen and (min-width: 1400px) {
-  /* Code for wide screen only */
-
-  /* Widescreen label */
-  main::before {
-    content: "Wide";
-    background-color: #00438888;
-  }
   body {
-        background: linear-gradient (black, rgb(174, 43, 65))
-  }
-   .chocolate-bar {
-        width: 320px;
-        height: 700px;
-    }
-
-    .brand {
-        font-size: 90px;
-    }
-
-    .product-line {
-        font-size: 32px;
-        letter-spacing: 3px;
-    }
-
-    .flavor {
-        font-size: 30px;
-        letter-spacing: 4px;
-    }
-
-    img.lindt-dragon {
-        height: 0.8in;
-        transform: translate(120px, -150px);
-    }
-
-    img.raspberry-image {
-        height: 3.8in;
-    }
-
-    .dark-noir {
-        font-size: 24px;
-        letter-spacing: 5px;
-    }
-
-    .weight {
-        font-size: 20px;
-    }
-
-    .flex div {
-        font-size: 13px;
+        background: linear-gradient(135deg, #000000, #93121f, #de3e52); 
     }
 }
   /* End widescreen label */
